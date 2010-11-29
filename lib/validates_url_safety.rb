@@ -1,4 +1,4 @@
-ActiveModel::Validations.class_eval do
+ActiveRecord::Base.class_eval do
   def self.converts_whitespace_for_url(*attr_names)
     configuration = { :if => :allow_validation }
     configuration.update(attr_names.extract_options!)
@@ -12,6 +12,8 @@ ActiveModel::Validations.class_eval do
     end
   end
 
+  ## FIXME: This should likely be placed with activemodel validations in
+  ## more official fashion
   def self.validates_url_safety_of(*attr_names)
     char_class = /[^0-9A-Za-z\_\-]/
 
