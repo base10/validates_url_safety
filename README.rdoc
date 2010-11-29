@@ -1,9 +1,18 @@
 = validates_url_safety
 
-Description goes here.
+I needed a validator and a convenience method from a previous project
+to validate the URL safety of a text string.
+
+When creating a resource name (a slug, if you will) for a URL, I want to be sure the resource name fits into a particular character set. My criteria are letters a-z, upper and lower case; numbers 0-9; dash and underscore.
+
+I am not doing any handling around UTF-8 characters. I am deliberately avoiding most punctuation.
 
 == Contributing to validates_url_safety
- 
+
+This gem is incomplete.
+
+Below is the stock Jeweler text:
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project
@@ -14,6 +23,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Nathan L. Walls. See LICENSE.txt for
+Copyright (c) 2010 Rex Luther Corporation. See LICENSE.txt for
 further details.
 
