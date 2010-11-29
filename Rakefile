@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "validates_url_safety"
   gem.homepage = "http://github.com/base10/validates_url_safety"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Convenience methods to test strings for safe inclusion in a URL}
+  gem.description = %Q{Verify a particular string only contains the following: A-Z, a-z, 0-9, _. Helps keep URLs to a known quantity of ASCII.}
   gem.email = "nathan@rexluther.com"
   gem.authors = ["Nathan L. Walls"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
