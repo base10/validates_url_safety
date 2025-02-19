@@ -1,4 +1,9 @@
+
 = validates_url_safety
+
+**This repository is very incomplete and has not been touched in over a decade. Hence, it has been archived.**
+
+## Description
 
 I needed a validator and a convenience method from a previous project
 to validate the URL safety of a text string.
